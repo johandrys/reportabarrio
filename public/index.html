@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inicio · ReportaBarrio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/estilos.css">
+</head>
+<body>
+  <header class="encabezado">
+    <a class="logo" href="/"><span class="logo-marca" aria-hidden="true">!</span>ReportaBarrio</a>
+    <nav aria-label="Principal">
+      <ul class="menu">
+        <li><a href="/" class="activo" aria-current="page">Inicio</a></li><li><a href="/reportar.html">Reportar</a></li><li><a href="/reportes">Reportes</a></li><li><a href="/estadisticas">Estadísticas</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="contenedor">
+    <section id="hero">
+      <div class="hero-texto">
+        <p class="sello">ODS 11 · Ciudades y comunidades sostenibles</p>
+        <h1>Un barrio cuidado es una ciudad más justa.</h1>
+        <p>Reporta huecos, basuras, luces dañadas o fugas de agua. Cuando los vecinos dejan constancia, la comunidad puede priorizar y las autoridades pueden actuar.</p>
+        <p class="hero-acciones">
+          <a class="boton boton-naranja" href="/reportar.html">Crear un reporte</a>
+          <a class="boton boton-borde" href="/reportes">Ver reportes</a>
+        </p>
+      </div>
+      <figure class="hero-visual">
+        <img src="/img/ciudad.svg" alt="Ilustración de un barrio al atardecer con edificios, árboles y alumbrado público">
+        <figcaption class="ticket">
+          <span class="ticket-cat">Alumbrado público</span>
+          <strong>Tres postes sin luz en la cuadra</strong>
+          <span class="ticket-pie"><span>El Prado</span><span class="estado estado-pendiente">Pendiente</span></span>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="seccion">
+      <h2>¿Qué problema quieres reportar?</h2>
+      <p class="intro">Elige una categoría para ver lo que ya se ha reportado en ese tema.</p>
+      <div class="categorias">
+        <a class="cat-enlace" href="/reportes?categoria=vias"><img src="/img/vias.svg" alt="" width="64" height="64">Vías y huecos</a>
+        <a class="cat-enlace" href="/reportes?categoria=alumbrado"><img src="/img/alumbrado.svg" alt="" width="64" height="64">Alumbrado público</a>
+        <a class="cat-enlace" href="/reportes?categoria=residuos"><img src="/img/residuos.svg" alt="" width="64" height="64">Residuos y basuras</a>
+        <a class="cat-enlace" href="/reportes?categoria=agua"><img src="/img/agua.svg" alt="" width="64" height="64">Agua y alcantarillado</a>
+        <a class="cat-enlace" href="/reportes?categoria=espacio"><img src="/img/espacio.svg" alt="" width="64" height="64">Espacio público y zonas verdes</a>
+        <a class="cat-enlace" href="/reportes?categoria=seguridad-vial"><img src="/img/seguridad-vial.svg" alt="" width="64" height="64">Seguridad vial</a>
+      </div>
+    </section>
+
+    <section class="seccion banda-ods">
+      <h2>¿Qué es el ODS 11 y cómo ayuda ReportaBarrio?</h2>
+      <p class="intro">El Objetivo de Desarrollo Sostenible 11 busca ciudades y asentamientos humanos inclusivos, seguros, resilientes y sostenibles. ReportaBarrio aporta tres metas concretas:</p>
+      <div class="tarjetas">
+        <article class="tarjeta meta">
+          <img src="/img/agua.svg" alt="" width="64" height="64">
+          <p class="meta-num">Meta 11.1</p>
+          <h3>Servicios básicos para todos</h3>
+          <p>Los reportes de agua, alcantarillado y alumbrado muestran dónde falta un servicio digno.</p>
+        </article>
+        <article class="tarjeta meta">
+          <img src="/img/comunidad.svg" alt="" width="64" height="64">
+          <p class="meta-num">Meta 11.3</p>
+          <h3>Participación ciudadana</h3>
+          <p>Cualquier vecino puede opinar y seguir lo que pasa en su barrio, sin intermediarios.</p>
+        </article>
+        <article class="tarjeta meta">
+          <img src="/img/espacio.svg" alt="" width="64" height="64">
+          <p class="meta-num">Meta 11.6</p>
+          <h3>Menor impacto ambiental</h3>
+          <p>Registrar basuras y zonas verdes descuidadas ayuda a reducir el impacto de la ciudad.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="seccion">
+      <h2>Cómo funciona</h2>
+      <ol class="pasos">
+        <li><strong>Reporta.</strong> Llena el formulario con el problema y su urgencia.</li>
+        <li><strong>Consulta.</strong> Filtra los reportes por categoría y barrio.</li>
+        <li><strong>Sigue.</strong> Mira en estadísticas cuántos están pendientes o resueltos.</li>
+      </ol>
+    </section>
+
+    <aside class="aviso">
+      <p><strong>Datos de ejemplo.</strong> Los reportes se guardan en la memoria del servidor y se reinician al apagarlo.</p>
+    </aside>
+  </main>
+  <footer class="pie"><p>ReportaBarrio · Proyecto de aula de Tecnologías Web · ODS 11: Ciudades y comunidades sostenibles</p></footer>
+</body>
+</html>

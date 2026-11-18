@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reportar · ReportaBarrio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/estilos.css">
+</head>
+<body>
+  <header class="encabezado">
+    <a class="logo" href="/"><span class="logo-marca" aria-hidden="true">!</span>ReportaBarrio</a>
+    <nav aria-label="Principal">
+      <ul class="menu">
+        <li><a href="/">Inicio</a></li><li><a href="/reportar.html" class="activo" aria-current="page">Reportar</a></li><li><a href="/reportes">Reportes</a></li><li><a href="/estadisticas">Estadísticas</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="contenedor">
+    <section class="seccion con-lateral">
+      <div>
+        <h1>Nuevo reporte</h1>
+        <p class="intro">Todos los campos son obligatorios. Describe el problema con claridad para que sea fácil de priorizar.</p>
+        <form class="formulario" action="/reportes" method="POST">
+          <label for="titulo">Título</label>
+          <input type="text" id="titulo" name="titulo" placeholder="Ej: Hueco frente al colegio" required>
+
+          <label for="categoria">Categoría</label>
+          <select id="categoria" name="categoria" required>
+            <option value="">Elige una categoría</option>
+            <option value="vias">Vías y huecos</option>
+            <option value="alumbrado">Alumbrado público</option>
+            <option value="residuos">Residuos y basuras</option>
+            <option value="agua">Agua y alcantarillado</option>
+            <option value="espacio">Espacio público y zonas verdes</option>
+            <option value="seguridad-vial">Seguridad vial</option>
+          </select>
+
+          <label for="barrio">Barrio</label>
+          <select id="barrio" name="barrio" required>
+            <option value="">Elige tu barrio</option>
+            <option>Centro</option><option>El Prado</option><option>Boston</option>
+            <option>Ciudad Jardín</option><option>Rebolo</option><option>Barrio Abajo</option><option>Riomar</option>
+          </select>
+
+          <label for="descripcion">Descripción</label>
+          <textarea id="descripcion" name="descripcion" rows="4" placeholder="¿Qué pasa, dónde y desde cuándo?" required></textarea>
+
+          <fieldset>
+            <legend>Urgencia</legend>
+            <label class="opcion"><input type="radio" name="urgencia" value="baja" required> Baja</label>
+            <label class="opcion"><input type="radio" name="urgencia" value="media"> Media</label>
+            <label class="opcion"><input type="radio" name="urgencia" value="alta"> Alta</label>
+          </fieldset>
+
+          <label for="contacto">Correo de contacto</label>
+          <input type="email" id="contacto" name="contacto" placeholder="tucorreo@ejemplo.com" required>
+
+          <button type="submit" class="boton boton-naranja">Enviar reporte</button>
+        </form>
+      </div>
+      <aside class="panel consejos">
+        <img class="ilustracion" src="/img/barrio.svg" alt="Casas y árboles de un barrio">
+        <h2>Para un buen reporte</h2>
+        <ul>
+          <li>Indica la dirección o un punto de referencia.</li>
+          <li>Cuenta desde cuándo ocurre el problema.</li>
+          <li>Elige urgencia alta solo si hay riesgo para las personas.</li>
+        </ul>
+        <p class="nota-ods">Cada reporte suma a la meta 11.3 del ODS 11: participación ciudadana en la mejora del barrio.</p>
+      </aside>
+    </section>
+  </main>
+  <footer class="pie"><p>ReportaBarrio · Proyecto de aula de Tecnologías Web · ODS 11: Ciudades y comunidades sostenibles</p></footer>
+</body>
+</html>

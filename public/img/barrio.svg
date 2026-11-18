@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-label="Casas de un barrio con árboles">
+<rect width="400" height="220" rx="18" fill="#D6EAF8"/>
+<circle cx="340" cy="46" r="26" fill="#F99D26"/>
+<rect y="170" width="400" height="50" fill="#1F8A70"/><rect y="195" width="400" height="25" fill="#2b3a47"/>
+<g><rect x="30" y="100" width="80" height="70" fill="#F99D26"/><path d="M22 102 70 60l48 42z" fill="#C93C3C"/><rect x="58" y="130" width="24" height="40" fill="#0F2A43"/></g>
+<g><rect x="140" y="85" width="90" height="85" fill="#fff"/><path d="M132 88 185 42l53 46z" fill="#0F2A43"/><rect x="152" y="105" width="20" height="20" fill="#FFD27A"/><rect x="198" y="105" width="20" height="20" fill="#FFD27A"/><rect x="172" y="135" width="26" height="35" fill="#2a6a99"/></g>
+<g><rect x="262" y="110" width="76" height="60" fill="#2FB88F"/><path d="M254 112 300 74l46 38z" fill="#0F2A43"/><rect x="290" y="135" width="22" height="35" fill="#fff"/></g>
+<g><rect x="119" y="140" width="6" height="30" fill="#6b4a2f"/><circle cx="122" cy="128" r="18" fill="#2FB88F"/></g>
+<g><rect x="355" y="135" width="6" height="35" fill="#6b4a2f"/><circle cx="358" cy="122" r="20" fill="#1F8A70"/></g>
+</svg>
