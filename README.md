@@ -1,6 +1,5 @@
 # ReportaBarrio
 
-<<<<<<< HEAD
 **Integrantes:** Johandrys Benitez Y Vanessa Rodriguez
 =======
 ## Descripción
