@@ -1,6 +1,6 @@
 # ReportaBarrio
 
-**Integrantes: Johandrys Benitez Y Vanessa Rodriguez 
+**Integrantes:** Johandrys Benitez Y Vanessa Rodriguez 
 
 ## Descripción
 Plataforma ciudadana para reportar, consultar y filtrar problemas del barrio (huecos, basuras, alumbrado, fugas de agua, espacio público y seguridad vial). Los datos viven en un arreglo en memoria, sin base de datos.
