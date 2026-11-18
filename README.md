@@ -1,6 +1,6 @@
 # ReportaBarrio
 
-**Integrantes:** _(escribe aquí los nombres del grupo)_
+**Integrantes:** Johandrys Benitez Y Vanessa Rodriguez
 
 ## Descripción
 Plataforma ciudadana para reportar, consultar y filtrar problemas del barrio (huecos, basuras, alumbrado, fugas de agua, espacio público y seguridad vial). Los datos viven en un arreglo en memoria, sin base de datos.
@@ -27,6 +27,8 @@ Abrir http://localhost:3000
 | * | cualquier otra | Página 404 |
 
 Categorías (valor): `vias`, `alumbrado`, `residuos`, `agua`, `espacio`, `seguridad-vial`.
+## Repositorio
+https://github.com/johandrys/reportabarrio
 
 ## Video de sustentación
 _(pega aquí el enlace)_
