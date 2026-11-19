@@ -31,4 +31,4 @@ Categorías (valor): `vias`, `alumbrado`, `residuos`, `agua`, `espacio`, `seguri
 https://github.com/johandrys/reportabarrio
 
 ## Video de sustentación
-(https://youtu.be/BP6Xy1t6cQw?si=OLVT7mAikjbAr5E_)
+https://youtu.be/BP6Xy1t6cQw?si=OLVT7mAikjbAr5E_
